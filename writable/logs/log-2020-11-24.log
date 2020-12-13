@@ -1,0 +1,57 @@
+CRITICAL - 2020-11-24 09:45:07 --> Column 'nama_barang' cannot be null
+#0 C:\xampp\htdocs\restapi2\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ca...')
+#1 C:\xampp\htdocs\restapi2\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\restapi2\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\restapi2\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\restapi2\app\Models\Category_model.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\restapi2\app\Controllers\Category.php(50): App\Models\Category_model->insertCategory(Array)
+#6 C:\xampp\htdocs\restapi2\system\CodeIgniter.php(918): App\Controllers\Category->create()
+#7 C:\xampp\htdocs\restapi2\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#8 C:\xampp\htdocs\restapi2\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\restapi2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\restapi2\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-11-24 10:18:57 --> Column 'harga_beli' cannot be null
+#0 C:\xampp\htdocs\ci4_restapi\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ca...')
+#1 C:\xampp\htdocs\ci4_restapi\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ci4_restapi\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ci4_restapi\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\ci4_restapi\app\Models\Category_model.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4_restapi\app\Controllers\Category.php(50): App\Models\Category_model->insertCategory(Array)
+#6 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(918): App\Controllers\Category->create()
+#7 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#8 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_restapi\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-11-24 10:20:08 --> Column 'harga_beli' cannot be null
+#0 C:\xampp\htdocs\ci4_restapi\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ca...')
+#1 C:\xampp\htdocs\ci4_restapi\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ci4_restapi\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ci4_restapi\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\ci4_restapi\app\Models\Category_model.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4_restapi\app\Controllers\Category.php(50): App\Models\Category_model->insertCategory(Array)
+#6 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(918): App\Controllers\Category->create()
+#7 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#8 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_restapi\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-11-24 10:35:56 --> Undefined index: id
+#0 C:\xampp\htdocs\ci4_restapi\app\Controllers\Category.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(918): App\Controllers\Category->show('1')
+#2 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_restapi\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-24 10:49:55 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\ci4_restapi\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 C:\xampp\htdocs\ci4_restapi\app\Models\Category_model.php(32): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#2 C:\xampp\htdocs\ci4_restapi\app\Controllers\Category.php(134): App\Models\Category_model->updateCategory(Array, '1')
+#3 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(918): App\Controllers\Category->update('1')
+#4 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#5 C:\xampp\htdocs\ci4_restapi\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_restapi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_restapi\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
